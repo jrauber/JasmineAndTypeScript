@@ -1,0 +1,31 @@
+{
+   "Framework": "jasmine",
+   "TestHarnessReferenceMode": "AMD",
+   "TestHarnessLocationMode": "SettingsFileAdjacent",
+  "AMDAppDirectory": "./",
+  "AMDBaseUrl": "out",
+  "References": [
+    {
+      "Path": "require-2.1.8.js",
+      "IsTestFrameworkFile": true
+    },
+    {
+      "Path": "config.js",
+      "IsTestFrameworkFile": true
+    }
+  ],
+  "Tests": [
+    {
+      "Path": "tests",
+      "ExpandReferenceComments": "true"
+    }
+  ],
+  "Compile": {
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ],
+    "UseSourceMaps": true,  
+    "Paths": [
+      { "OutputPath": "out" }
+    ]
+  }
+}
